@@ -28,8 +28,8 @@ int main()                                    // main function
   // since cog is an int it just updates the number and prints it every 100 ms, by then its updated by 2 
   // the next print cycle, because of a 50 ms pause
   
-int cog =  cogstart(adder, NULL, stack, sizeof(stack));
-print(" cog = %d\n", cog);
+  int cog =  cogstart(adder, NULL, stack, sizeof(stack));
+  print(" cog = %d\n", cog);
 
   // Watch what the other cog is doing to the value of n.
   while(1)
@@ -50,3 +50,4 @@ void adder(void *par)                         // Adder keeps going on its own
     pause(t);                                 // Wait for t ms between updates
   }                            
 }
+
