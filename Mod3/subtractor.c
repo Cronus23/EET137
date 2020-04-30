@@ -10,7 +10,8 @@
 #include "simpletools.h"                      // Include simpletools
 
 int adder(int a, int b);                      // Function prototype
-int subtracter(int b, int a);
+int subtractor(int b, int a);
+int d, n;
 
 int main()                                    // main function
 {
@@ -21,19 +22,19 @@ int main()                                    // main function
   // assign -95 into n and print result
   n = adder(-100,5);
   print("adder's result = %d\n",n);
-  // create variable d assign value from function subtracter() print the results
-  int d = subtracter(20,6);
-  print("subtracter's result = %d\n",d);
+  // create variable d assign value from function subtractor() print the results
+  int d = subtractor(20,6);
+  print("subtractor's result = %d\n",d);
 }
 
-int adder(int a, int b)                       // adder function
+int adder(int a, int b)   // adder function
 {
-  int c = a + b;                              // Add two values
-  return c;                                   // Return the result
+ // int c = a + b;         // Add two values
+  return a + b;          // Return the result
 }
 
-int subtracter(int a, int b){
+int subtractor(int a, int b){
   
-  int c = a - b;
-  return c;
+  //int c = a - b;
+  return a - b;
 }  

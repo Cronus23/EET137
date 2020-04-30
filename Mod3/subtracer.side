@@ -1,0 +1,6 @@
+subtracer.c
+>compiler=C
+>memtype=lmm main ram
+>optimize=-Os
+>-fno-exceptions
+>BOARD::ACTIVITYBOARD

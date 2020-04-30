@@ -1,4 +1,4 @@
-subtracer.c
+subtractor.c
 >compiler=C
 >memtype=cmm main ram compact
 >optimize=-Os
