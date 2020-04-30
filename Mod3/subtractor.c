@@ -16,6 +16,7 @@ int d, n;
 int main()                                    // main function
 {
   // Call adder function twice adding the sums of each, store this value into n
+  // Try This
   int n = adder(25, 17) + adder(100,2);        
               // Display adder function result
   print("adder's result is = %d\n", n);       
@@ -23,6 +24,7 @@ int main()                                    // main function
   n = adder(-100,5);
   print("adder's result = %d\n",n);
   // create variable d assign value from function subtractor() print the results
+  // Your Turn
   int d = subtractor(20,6);
   print("subtractor's result = %d\n",d);
 }
